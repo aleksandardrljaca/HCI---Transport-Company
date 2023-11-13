@@ -35,9 +35,9 @@ namespace ADTransport.Data.Wrapper
                 while (reader.Read())
                     invoices.Add(new Invoice(reader.GetInt32(0), reader.GetString(1), reader.GetString(2), reader.GetDateTime(3), reader.GetDouble(4),reader.GetString(5)));
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                throw new DataAccessException("Greška prilikom čitanja zaposlenih.");
+                MessageBox.Show(e.Message,"Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
             finally
             {
@@ -63,9 +63,9 @@ namespace ADTransport.Data.Wrapper
                 cmd.Parameters.AddWithValue("@IdZaposlenog", employeeId);
                 cmd.ExecuteNonQuery();
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                throw new DataAccessException("Greška prilikom čitanja zaposlenih.");
+                MessageBox.Show(e.Message,"Error",MessageBoxButtons.OK,MessageBoxIcon.Error); 
             }
             finally
             {
@@ -89,9 +89,9 @@ namespace ADTransport.Data.Wrapper
                 
                 cmd.ExecuteNonQuery();
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                throw new DataAccessException("Greška prilikom čitanja zaposlenih.");
+                MessageBox.Show(e.Message,"Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
             finally
             {
