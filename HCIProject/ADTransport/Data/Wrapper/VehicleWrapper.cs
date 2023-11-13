@@ -30,9 +30,9 @@ namespace ADTransport.Data.Wrapper
                 cmd.Parameters.AddWithValue("@GodP", god);
                 cmd.ExecuteNonQuery();
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                throw new DataAccessException("Greška prilikom ubacivanja vozila.");
+                MessageBox.Show(e.Message,"Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
             finally
             {
@@ -55,9 +55,9 @@ namespace ADTransport.Data.Wrapper
                 while (reader.Read())
                     vehicles.Add(new Vehicle(reader.GetInt32(0),reader.GetString(1), reader.GetString(2), reader.GetInt32(3)));
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                throw new DataAccessException("Greška prilikom čitanja zaposlenih.");
+                MessageBox.Show(e.Message,"Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
             finally
             {
