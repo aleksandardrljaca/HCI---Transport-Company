@@ -31,9 +31,9 @@ namespace ADTransport.Data.Wrapper
                 while (reader.Read())
                     clients.Add(new Clients(reader.GetInt32(0), reader.GetString(1), reader.GetString(2)));
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                throw new DataAccessException("Greška prilikom čitanja zaposlenih.");
+                MessageBox.Show(e.Message,"Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
             finally
             {
@@ -83,9 +83,9 @@ namespace ADTransport.Data.Wrapper
                 if(reader.Read())
                     client=new Clients(reader.GetInt32(0), reader.GetString(1), reader.GetString(2));
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                throw new DataAccessException("Greška prilikom čitanja zaposlenih.");
+                MessageBox.Show(e.Message,"Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
             finally
             {
