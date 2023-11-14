@@ -5,3 +5,5 @@ Here are some GUI examples for the admin role:
 ![Drivers](https://github.com/aleksandardrljaca/HCI-Transport-Company/blob/main/drvrs.png)
 ![Settings](https://github.com/aleksandardrljaca/HCI-Transport-Company/blob/main/settings.png)
 ![My Account](https://github.com/aleksandardrljaca/HCI-Transport-Company/blob/main/accnt.png)
+Administrative assistant options:
+![Assistant](https://github.com/aleksandardrljaca/HCI-Transport-Company/blob/main/assistant.png)
