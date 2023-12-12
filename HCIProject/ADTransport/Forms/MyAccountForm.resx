@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;pswdPicBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;pswdTBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="reTypePswdLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="changeCrdntlsBtn.Text" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pswdLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rockwell, 12pt, style=Bold, Italic</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pswdLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pswdLbl.Parent" xml:space="preserve">
+    <value>crdntlsGBox</value>
+  </data>
+  <data name="&gt;&gt;reTypePswdLbl.Parent" xml:space="preserve">
+    <value>crdntlsGBox</value>
+  </data>
+  <data name="reTypePswdLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 20</value>
+  </data>
+  <data name="&gt;&gt;usrNmPBOx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="changeCrdntlsBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 393</value>
+  </data>
+  <data name="&gt;&gt;pswdLbl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;rePswdPBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pswdTBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="usrTBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="crdntlsGBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 167</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="rePswdPBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 266</value>
+  </data>
+  <data name="pswdLbl.Text" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="usrTBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 105</value>
+  </data>
+  <data name="&gt;&gt;changeCrdntlsBtn.Name" xml:space="preserve">
+    <value>changeCrdntlsBtn</value>
+  </data>
+  <data name="&gt;&gt;pswdTBox.Name" xml:space="preserve">
+    <value>pswdTBox</value>
+  </data>
+  <data name="usrNmPBOx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 85</value>
+  </data>
+  <data name="usrNameLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;usrTBox.Parent" xml:space="preserve">
+    <value>crdntlsGBox</value>
+  </data>
+  <data name="&gt;&gt;crdntlsGBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;changeCrdntlsBtn.Parent" xml:space="preserve">
+    <value>crdntlsGBox</value>
+  </data>
+  <data name="pswdLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 198</value>
+  </data>
+  <data name="usrNmPBOx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;rePswdPBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="reTypePswdLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="changeCrdntlsBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="usrTBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rockwell, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;usrNameLbl.Parent" xml:space="preserve">
+    <value>crdntlsGBox</value>
+  </data>
+  <data name="&gt;&gt;askBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;crdntlsGBox.Name" xml:space="preserve">
+    <value>crdntlsGBox</value>
+  </data>
+  <data name="crdntlsGBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="usrNameLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 107</value>
+  </data>
+  <data name="reTypePswdLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rockwell, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;pswdPicBox.Name" xml:space="preserve">
+    <value>pswdPicBox</value>
+  </data>
+  <data name="&gt;&gt;usrNameLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rePswdPBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="askBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="changeCrdntlsBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 58</value>
+  </data>
+  <data name="&gt;&gt;askBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="askBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="reTypePswdLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 290</value>
+  </data>
+  <data name="&gt;&gt;rePswdPBox.Parent" xml:space="preserve">
+    <value>crdntlsGBox</value>
+  </data>
+  <data name="pswdTBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;reTypePswdLbl.Name" xml:space="preserve">
+    <value>reTypePswdLbl</value>
+  </data>
+  <data name="pswdTBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 26</value>
+  </data>
+  <data name="&gt;&gt;usrNameLbl.Name" xml:space="preserve">
+    <value>usrNameLbl</value>
+  </data>
+  <data name="reTypePswdLbl.Text" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="reTypePswdLbl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;usrTBox.Name" xml:space="preserve">
+    <value>usrTBox</value>
+  </data>
+  <data name="pswdPicBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 172</value>
+  </data>
+  <data name="usrNameLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 20</value>
+  </data>
+  <data name="askBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="reTypePswdLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;usrNmPBOx.Parent" xml:space="preserve">
+    <value>crdntlsGBox</value>
+  </data>
+  <data name="usrNmPBOx.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="pswdLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="askBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 24</value>
+  </data>
+  <data name="&gt;&gt;pswdLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;reTypePswdLbl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rePswdTBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 288</value>
+  </data>
+  <data name="&gt;&gt;askBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="changeCrdntlsBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;pswdPicBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;crdntlsGBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="askBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rockwell, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="crdntlsGBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>533, 458</value>
+  </data>
+  <data name="rePswdPBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="usrNameLbl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;reTypePswdLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="crdntlsGBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="pswdTBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 191</value>
+  </data>
+  <data name="usrNmPBOx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>517, 68</value>
+  </data>
+  <data name="crdntlsGBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rockwell, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="usrTBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 26</value>
+  </data>
+  <data name="rePswdPBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="pswdLbl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;usrNmPBOx.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="usrNameLbl.Text" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="pswdPicBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="askBox.Text" xml:space="preserve">
+    <value>checkBox1</value>
+  </data>
+  <data name="&gt;&gt;changeCrdntlsBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MyAccountForm</value>
+  </data>
+  <data name="&gt;&gt;rePswdTBox.Name" xml:space="preserve">
+    <value>rePswdTBox</value>
+  </data>
+  <data name="usrNameLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>MyAccountForm</value>
+  </data>
+  <data name="rePswdTBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;usrTBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rePswdPBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>517, 68</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="&gt;&gt;rePswdTBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;usrNmPBOx.Name" xml:space="preserve">
+    <value>usrNmPBOx</value>
+  </data>
+  <data name="&gt;&gt;pswdTBox.Parent" xml:space="preserve">
+    <value>crdntlsGBox</value>
+  </data>
+  <data name="&gt;&gt;usrTBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;pswdTBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="usrTBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="pswdLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 20</value>
+  </data>
+  <data name="rePswdTBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rockwell, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="crdntlsGBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="pswdPicBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="pswdTBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rockwell, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;askBox.Name" xml:space="preserve">
+    <value>askBox</value>
+  </data>
+  <data name="&gt;&gt;rePswdTBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rePswdTBox.Parent" xml:space="preserve">
+    <value>crdntlsGBox</value>
+  </data>
+  <data name="&gt;&gt;pswdLbl.Name" xml:space="preserve">
+    <value>pswdLbl</value>
+  </data>
+  <data name="&gt;&gt;pswdPicBox.Parent" xml:space="preserve">
+    <value>crdntlsGBox</value>
+  </data>
+  <data name="&gt;&gt;crdntlsGBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1048, 736</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pswdPicBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>517, 68</value>
+  </data>
+  <data name="&gt;&gt;rePswdPBox.Name" xml:space="preserve">
+    <value>rePswdPBox</value>
+  </data>
+  <data name="usrNameLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rockwell, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;changeCrdntlsBtn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="askBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>436, 130</value>
+  </data>
+  <data name="rePswdTBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;usrNameLbl.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="rePswdTBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 26</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
